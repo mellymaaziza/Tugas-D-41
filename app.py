@@ -47,7 +47,7 @@ with st.sidebar:
     halaman = st.radio("Pilih Menu:", ["👤 My Profile", "📈 Business Dashboard", "🔍 Deep Dive Data"])
     st.markdown("---")
     st.write("**Contact:**")
-    st.write("📧 mellymarceliaaziza@email.com")
+    st.write("📧 mellymarceliaaziza@gmail.com")
 
 # --- HALAMAN 1: PROFIL ---
 if halaman == "👤 My Profile":
@@ -170,4 +170,5 @@ elif halaman == "🔍 Deep Dive Data":
         with col_y:
             st.subheader("🔥 Top 10 Products")
             top_prod = df.groupby('product_name')['sales'].sum().reset_index().sort_values('sales', ascending=False).head(10)
+
             st.table(top_prod)
