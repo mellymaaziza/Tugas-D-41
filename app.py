@@ -55,7 +55,7 @@ if halaman == "👤 My Profile":
     
     with col1:
         # Gunakan path file foto kamu
-        st.image(r"assets\20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png", use_container_width=True)
+        st.image("assets/20191003_blog_scoping_a_data_science_project_in_a_smarter_way_website.png", use_container_width=True)
     
     with col2:
         st.title("Hi, I'm MELLY MARCELIA AZIZA 👋")
@@ -172,5 +172,6 @@ elif halaman == "🔍 Deep Dive Data":
             top_prod = df.groupby('product_name')['sales'].sum().reset_index().sort_values('sales', ascending=False).head(10)
 
             st.table(top_prod)
+
 
 
