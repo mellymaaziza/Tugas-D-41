@@ -17,7 +17,7 @@ Tools: Git & GitHub for Version Control.
 
 ⚙️ Cara Menjalankan Secara Lokal
 1. Clone repositori ini:
-git clone https://github.com/username-kamu/nama-repo.git
+git clone https://github.com/mellymaaziza/Tugas-D-41.git
 2. Install library yang dibutuhkan:
 pip install streamlit pandas plotly openpyxl
 3. Jalankan aplikasi:
