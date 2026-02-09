@@ -24,4 +24,4 @@ pip install streamlit pandas plotly openpyxl
 streamlit run app.py
 
 👤 Author
-Melly Marcelia Aziza Data Science Bootcamp Student & Analytics Enthusiast 📩 mellymarceliaaziza@email.com
+Melly Marcelia Aziza Data Science Bootcamp Student & Analytics Enthusiast 📩 mellymarceliaaziza@gmail.com
