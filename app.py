@@ -34,7 +34,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     # Gunakan r'' untuk menghindari unicode error pada path windows
-    df = pd.read_excel("data\superstore_dataset.xlsx")
+    df = pd.read_excel("data/superstore_dataset.xlsx")
     df['order_date'] = pd.to_datetime(df['order_date'])
     return df
 
@@ -172,4 +172,5 @@ elif halaman == "🔍 Deep Dive Data":
             top_prod = df.groupby('product_name')['sales'].sum().reset_index().sort_values('sales', ascending=False).head(10)
 
             st.table(top_prod)
+
 
